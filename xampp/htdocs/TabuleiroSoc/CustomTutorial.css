@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Open-Sans';
+    src: url(Fontes/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(Fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Muli';
+    src: url(Fontes/muli/Muli-Italic.ttf);
+    src: url(Fontes/muli/Muli-Light.ttf);
+    src: url(Fontes/muli/Muli-LightItalic.ttf);
+    src: url(Fontes/muli/Muli-Regular.ttf);
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Open-Sans', sans-serif ;
+    color: rgba(151, 80, 13, 1)
+}
+
+h2{
+    color: rgba(161, 79, 2, 1);
+}
+
+
+body{
+    background-image: url(KarlMarx.jpg);
+    font-family: 'Muli', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+
+}
+
+.menu{
+    margin: 1px auto;
+    height: 25px;
+}
+
+.menu li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 120px;
+    display: inline-block;
+}
+
+.NavContainer{
+    padding: 4px;
+    border-bottom: 4px;
+    margin-right:8px ;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(97, 47, 0, 1);
+    font-size: 24px;
+}
+
+.Tutorial p{
+    text-align: justify;
+    width: 50%;
+    align-items: center;
+    padding-left: 25%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 27px;
+    -webkit-text-stroke: 1.7px black;
+}
+
+button{
+    padding: 22px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(151, 80, 13, 0.4);
+    cursor: pointer;
+}
